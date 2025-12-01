@@ -27,18 +27,15 @@ namespace OnlineQuizSystemClassLibrary
             this.Password = "";
             this.Email = "";
             this.Role = "";
+            this.LoginDate = DateTime.Now;
             count++;
         }
 
         // Paramaterised Constructor for Admin object
-        public Admin(string userUsername, string userPassword, string userEmail, string userRole, DateTime AdminLoginDate)
+        public Admin(string userUsername, string userPassword, string userEmail, string userRole, DateTime AdminLoginDate) : base(userUsername, userPassword, userEmail, userRole)
         {
             this.id = count;
-            this.Username = userUsername;
-            this.Password = userPassword;
-            this.Email = userEmail;
-            this.Role = userRole;
-            this.LoginDate = DateTime.Now;
+            this.LoginDate = AdminLoginDate;
             count++;
         }
 
