@@ -43,7 +43,7 @@ namespace OnlineQuizSystemClassLibrary
         public void DisplayInfo()
         {
             Console.WriteLine($"Student ID: {ID}");
-            Console.WriteLine($"Student Userame: {Username}");
+            Console.WriteLine($"Student Username: {Username}");
             Console.WriteLine($"Student Password: {Password}");
             Console.WriteLine($"Student Email: {Email}");
             Console.WriteLine($"Student Role: {Role}");
