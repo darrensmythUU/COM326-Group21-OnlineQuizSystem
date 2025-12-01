@@ -59,5 +59,15 @@ namespace OnlineQuizSystemClassLibrary
         }
 
         // Methods
+        public void LoadSampleData()
+        {
+            // User List
+
+            // Quiz List
+
+            // Category List
+
+            // Question List
+        }
     }
 }
