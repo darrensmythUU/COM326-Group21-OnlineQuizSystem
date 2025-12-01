@@ -1,7 +1,7 @@
 ﻿namespace OnlineQuizSystemTests
 {
     [TestClass]
-    public sealed class Test1
+    public sealed class UserTests
     {
         [TestMethod]
         public void TestMethod1()
