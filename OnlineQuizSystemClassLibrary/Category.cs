@@ -11,8 +11,8 @@ namespace OnlineQuizSystemClassLibrary
     {
         // Private Fields
         private int id;
-        private string name;
-        private string description;
+        private string categoryName;
+        private string categoryDescription;
         private static int count = 0;
 
         // Public Get/Set Constructors
@@ -21,24 +21,24 @@ namespace OnlineQuizSystemClassLibrary
             get { return id; }
         }
 
-        public string Name
+        public string CategoryName
         {
-            get { return name; }
-            set { name = value; }
+            get { return categoryName; }
+            set { categoryName = value; }
         }
 
-        public string Description
+        public string CategoryDescription
         {
-            get { return description; }
-            set { description = value; }
+            get { return categoryDescription; }
+            set { categoryDescription = value; }
         }
 
         // Default Constructor for Category object
         public Category()
         {
             this.id = count;
-            this.Name = "";
-            this.Description = "";
+            this.CategoryName = "";
+            this.CategoryDescription = "";
             count++;
         }
 
@@ -46,8 +46,8 @@ namespace OnlineQuizSystemClassLibrary
         public Category(string categoryName, string categoryDescription)
         {
             this.id = count;
-            this.Name = categoryName;
-            this.Description = categoryDescription;
+            this.CategoryName = categoryName;
+            this.CategoryDescription = categoryDescription;
             count++;
         }
 
