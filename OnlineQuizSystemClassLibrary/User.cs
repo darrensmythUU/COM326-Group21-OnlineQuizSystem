@@ -8,6 +8,7 @@
         private string password;
         private string email;
         private string role;
+        private static int count = 0;
 
         // Get/Set Constructors
         public int ID
@@ -39,13 +40,15 @@
             set { role = value; }
         }
 
-        // Constructor for User object
+        // Constructor for User object (Incomplete)
         public User(string userUsername, string userPassword, string userEmail, string userRole)
         {
+            this.id = count;
             this.Username = userUsername;
             this.Password = userPassword;
             this.Email = userEmail;
             this.Email = userRole;
+            count++;
         }
 
         // Methods
