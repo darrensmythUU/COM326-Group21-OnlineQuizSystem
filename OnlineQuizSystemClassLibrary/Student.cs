@@ -22,7 +22,7 @@ namespace OnlineQuizSystemClassLibrary
         // Default Constructor for Student object
         public Student()
         {
-            this.id = count;
+            this.userID = count;
             this.Username = "";
             this.Password = "";
             this.Email = "";
@@ -34,7 +34,7 @@ namespace OnlineQuizSystemClassLibrary
         // Paramaterised Constructor for Student object
         public Student(string userUsername, string userPassword, string userEmail, string userRole, string userStatus) : base(userUsername, userPassword, userEmail, userRole)
         {
-            this.id = count;
+            this.userID = count;
             this.Status = userStatus;
             count++;
         }

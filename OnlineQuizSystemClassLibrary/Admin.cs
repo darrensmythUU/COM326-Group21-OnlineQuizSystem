@@ -22,7 +22,7 @@ namespace OnlineQuizSystemClassLibrary
         // Default Constructor for Admin object
         public Admin()
         {
-            this.id = count;
+            this.userID = count;
             this.Username = "";
             this.Password = "";
             this.Email = "";
@@ -34,7 +34,7 @@ namespace OnlineQuizSystemClassLibrary
         // Paramaterised Constructor for Admin object
         public Admin(string userUsername, string userPassword, string userEmail, string userRole, DateTime AdminLoginDate) : base(userUsername, userPassword, userEmail, userRole)
         {
-            this.id = count;
+            this.userID = count;
             this.LoginDate = AdminLoginDate;
             count++;
         }

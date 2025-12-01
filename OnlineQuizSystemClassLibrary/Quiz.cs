@@ -10,7 +10,7 @@ namespace OnlineQuizSystemClassLibrary
     public class Quiz
     {
         // Private Fields
-        private int id;
+        private int quizID;
         private string quizTitle;
         private string quizDescription;
         private Category quizCategory;
@@ -21,7 +21,7 @@ namespace OnlineQuizSystemClassLibrary
         // Public Get/Set Constructors
         public int ID
         {
-            get { return id; }
+            get { return quizID; }
         }
 
         public string QuizTitle
@@ -57,7 +57,7 @@ namespace OnlineQuizSystemClassLibrary
         // Default Constructor for Quiz object
         public Quiz()
         {
-            this.id = count;
+            this.quizID = count;
             this.QuizTitle = "";
             this.QuizDescription = "";
             this.QuizCategory = new Category();
@@ -69,7 +69,7 @@ namespace OnlineQuizSystemClassLibrary
         // Paramaterised Constructor for Quiz object
         public Quiz(string quizTitle, string quizDescription, Category quizCategory, List<Question> quizQuestions, DateTime quizDate)
         {
-            this.id = count;
+            this.quizID = count;
             this.QuizTitle = quizTitle;
             this.QuizDescription = quizDescription;
             this.QuizCategory = quizCategory;

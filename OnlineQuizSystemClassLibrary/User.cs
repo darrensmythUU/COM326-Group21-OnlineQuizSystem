@@ -3,7 +3,7 @@
     public class User
     {
         // Private Fields
-        protected int id;
+        protected int userID;
         private string username;
         private string password;
         private string email;
@@ -13,7 +13,7 @@
         // Public Get/Set Constructors
         public int ID
         {
-            get { return id; }
+            get { return userID; }
         }
 
         public string Username
@@ -43,7 +43,7 @@
         // Default Constructor for User object
         public User()
         {
-            this.id = count;
+            this.userID = count;
             this.Username = "";
             this.Password = "";
             this.Email = "";
