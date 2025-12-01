@@ -4,7 +4,15 @@ namespace OnlineQuizSystemTests;
 public class QuestionTests
 {
     [TestMethod]
-    public void TestMethod1()
+    public void QuestionConstructor_ShouldInitliaizeProperly()
     {
+        // Arrange
+
+
+        // Act
+
+
+        // Assert
+
     }
 }

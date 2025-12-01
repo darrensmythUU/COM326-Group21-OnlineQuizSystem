@@ -55,8 +55,8 @@ namespace OnlineQuizSystemClassLibrary
         public void DisplayInfo()
         {
             Console.WriteLine($"Category ID: {ID}");
-            Console.WriteLine($"Category Name: {Name}");
-            Console.WriteLine($"Category Description: {Description}");
+            Console.WriteLine($"Category Name: {CategoryName}");
+            Console.WriteLine($"Category Description: {CategoryDescription}");
             Console.WriteLine();
         }
     }

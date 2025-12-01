@@ -50,7 +50,7 @@ namespace OnlineQuizSystemClassLibrary
         }
 
         // Paramaterised Constructor for QuizSystem object
-        public QuizSystem(List<Question> users, List<Question> quizzes, List<Question> categories, List<Question> questionBank)
+        public QuizSystem(List<User> users, List<Quiz> quizzes, List<Category> categories, List<Question> questionBank)
         {
             this.Users = users;
             this.Quizzes = quizzes;

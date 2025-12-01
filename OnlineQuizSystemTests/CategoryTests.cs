@@ -4,7 +4,15 @@ namespace OnlineQuizSystemTests;
 public class CategoryTests
 {
     [TestMethod]
-    public void TestMethod1()
+    public void CategoryConstructor_ShouldInitliaizeProperly()
     {
+        // Arrange
+
+
+        // Act
+
+
+        // Assert
+
     }
 }

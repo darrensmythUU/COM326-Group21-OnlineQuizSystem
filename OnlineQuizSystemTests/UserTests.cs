@@ -4,8 +4,16 @@
     public sealed class UserTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void UserConstructor_ShouldInitliaizeProperly()
         {
+            // Arrange
+
+
+            // Act
+
+
+            // Assert
+
         }
     }
 }

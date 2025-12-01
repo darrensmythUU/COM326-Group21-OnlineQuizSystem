@@ -52,7 +52,7 @@
         }
 
         // Paramaterised Constructor for User object
-        public User(string username, string password, string email, string role)
+        public User(string userUsername, string userPassword, string userEmail, string userRole)
         {
             this.id = count;
             this.Username = userUsername;

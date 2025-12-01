@@ -4,7 +4,15 @@ namespace OnlineQuizSystemTests;
 public class AdminTests
 {
     [TestMethod]
-    public void TestMethod1()
+    public void AdminConstructor_ShouldInitliaizeProperly()
     {
+        // Arrange
+
+
+        // Act
+
+
+        // Assert
+
     }
 }
