@@ -10,7 +10,7 @@
         private string role;
         protected static int count = 0;
 
-        // Get/Set Constructors
+        // Public Get/Set Constructors
         public int ID
         {
             get { return id; }

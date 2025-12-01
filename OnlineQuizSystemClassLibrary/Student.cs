@@ -12,7 +12,7 @@ namespace OnlineQuizSystemClassLibrary
         // Private Fields
         private string status;
 
-        // Get/Set Constructors
+        // Public Get/Set Constructors
         public string Status
         {
             get { return status; }

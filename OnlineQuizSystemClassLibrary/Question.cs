@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OnlineQuizSystemClassLibrary
 {
-    internal class Questions
+    public class Question
     {
 
     }

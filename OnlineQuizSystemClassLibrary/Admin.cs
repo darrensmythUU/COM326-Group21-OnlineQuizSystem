@@ -12,7 +12,7 @@ namespace OnlineQuizSystemClassLibrary
         // Private Fields
         private DateTime loginDate;
 
-        // Get/Set Constructors
+        // Public Get/Set Constructors
         public DateTime LoginDate
         {
             get { return loginDate; }
