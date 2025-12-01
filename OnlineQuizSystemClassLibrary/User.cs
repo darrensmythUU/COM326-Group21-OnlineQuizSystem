@@ -3,12 +3,12 @@
     public class User
     {
         // Private Fields
-        private int id;
+        protected int id;
         private string username;
         private string password;
         private string email;
         private string role;
-        private static int count = 0;
+        protected static int count = 0;
 
         // Get/Set Constructors
         public int ID
@@ -40,7 +40,18 @@
             set { role = value; }
         }
 
-        // Constructor for User object (Incomplete)
+        // Default Constructor for User object
+        public User()
+        {
+            this.id = count;
+            this.Username = "";
+            this.Password = "";
+            this.Email = "";
+            this.Email = "";
+            count++;
+        }
+
+        // Paramaterised Constructor for User object
         public User(string userUsername, string userPassword, string userEmail, string userRole)
         {
             this.id = count;
