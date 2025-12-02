@@ -54,7 +54,7 @@
         // Paramaterised Constructor for User object
         public User(string userUsername, string userPassword, string userEmail, string userRole)
         {
-            this.id = count;
+            this.userID = count;
             this.Username = userUsername;
             this.Password = userPassword;
             this.Email = userEmail;
